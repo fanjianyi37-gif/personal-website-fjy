@@ -1,0 +1,44 @@
+/* ===== Article Page Styles ===== */
+
+.article-main {
+  padding: 5rem 1.5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article-post {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.article-body {
+  line-height: 1.8;
+}
+
+.article-body p {
+  margin-bottom: 1rem;
+}
+
+.article-body h2,
+.article-body h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-body ul,
+.article-body ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.article-body li {
+  margin-bottom: 0.5rem;
+}
+
+.article-author {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border, #d2d2d7);
+  color: var(--text-secondary, #6e6e73);
+  font-size: 0.95rem;
+}
